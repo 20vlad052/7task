@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .logo {
+    background-color: #0675ce;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logotip p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .linkWrap {
+    margin-bottom: 10px;
+  }
+  
+  .linkWrap a {
+    color: #404040;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .linkWrap a:hover {
+    text-decoration: underline;
+  }
+  
+  .button-link {
+    background-color: #0675ce;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .button-link:hover {
+    background-color: #42a5f5;
+  }
+  
+  .button {
+    background-color: #0675ce;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #42a5f5;
+  }
+  
+  .footer {
+    background-color: #0675ce;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .footer-text {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .link {
+    color: #404040;
+    text-decoration: none;
+    font-size: 18px; 
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  /*
+  Стили для игры
+  */
+  .game-title{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .game-container {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    color: white;
+    background-color: #0026ff;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #5cbf5c;
+  }
+  
+  .notification {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2e00fd;
+    margin-top: 20px;
+  }
